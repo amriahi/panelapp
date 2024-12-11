@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font */
+@font-face {
+	font-family: "primary-font";
+	src: url("../public/font/iran-yekan/iran-yekan-300.eot");
+	src: url("../public/font/iran-yekan/iran-yekan-300.eot?#iefix") format("embedded-opentype"),
+		 url("../public/font/iran-yekan/iran-yekan-300.woff2") format("woff2"),
+		 url("../public/font/iran-yekan/iran-yekan-300.woff") format("woff"),
+		 url("../public/font/iran-yekan/iran-yekan-300.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "primary-font";
+	src: url("../public/font/iran-yekan/iran-yekan-400.eot");
+	src: url("../public/font/iran-yekan/iran-yekan-400.eot?#iefix") format("embedded-opentype"),
+		 url("../public/font/iran-yekan/iran-yekan-400.woff2") format("woff2"),
+		 url("../public/font/iran-yekan/iran-yekan-400.woff") format("woff"),
+		 url("../public/font/iran-yekan/iran-yekan-400.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "primary-font";
+	src: url("../public/font/iran-yekan/iran-yekan-500.eot");
+	src: url("../public/font/iran-yekan/iran-yekan-500.eot?#iefix") format("embedded-opentype"),
+		 url("../public/font/iran-yekan/iran-yekan-500.woff2") format("woff2"),
+		 url("../public/font/iran-yekan/iran-yekan-500.woff") format("woff"),
+		 url("../public/font/iran-yekan/iran-yekan-500.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "primary-font";
+	src: url("../public/font/iran-yekan/iran-yekan-700.eot");
+	src: url("../public/font/iran-yekan/iran-yekan-700.eot?#iefix") format("embedded-opentype"),
+		 url("../public/font/iran-yekan/iran-yekan-700.woff2") format("woff2"),
+		 url("../public/font/iran-yekan/iran-yekan-700.woff") format("woff"),
+		 url("../public/font/iran-yekan/iran-yekan-700.ttf") format("truetype");
+	font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: primary-font !important;
+}
